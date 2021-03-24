@@ -10,7 +10,5 @@ amiiboRouter.get('/', amiibos)
 
 amiiboRouter.delete('/delete', deleteAmiibo)
 
-/* movieRouter.get('/id', getMovieById) */
-
 amiiboRouter.put('/update', updateAmiibo)
 
