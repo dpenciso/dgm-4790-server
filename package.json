@@ -1,14 +1,14 @@
 {
-  "name": "practice-2021",
+  "name": "4790-project",
   "version": "0.0.1",
-  "description": "This is where I practice using Node",
+  "description": "4790 Server",
   "main": "app.js",
   "type": "module",
   "scripts": {
     "start": "nodemon app.js",
     "seed": "node seed/loadIMDB.js"
   },
-  "author": "Thor Anderson",
+  "author": "David Enciso",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",

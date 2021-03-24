@@ -18,7 +18,7 @@ const options = {
   
   try {
     const response = await axios.request(options)
-    await addAmiibos(response.data.amiibo.splice(0, 3))
+    await addAmiibos(response.data.amiibo.splice(0, 30))
     await mongoose.connection.close()
     // console.log(response.data)
   } catch (error) {
