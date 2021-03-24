@@ -12,7 +12,7 @@ const amiiboSchema = new Schema({
         required: false
     },
     image: {
-        type: Object,
+        type: String,
         required: false
     },
     id: {
