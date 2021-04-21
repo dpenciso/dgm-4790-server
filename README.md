@@ -1,37 +1,5 @@
 ## App Features
 
-### Conditional Logic and JavaScript Array Methods
-
-This app uses conditional logic and JavaScript array methods to sort throught he Amiibo API and return the relevant information in cards. This code can be found in the [Amiibo.js](/src/Content/Amiibo/Amiibo.js) file.
-
-### Function-based Amiibo Component
-
-This app imports a .json file containing information about all the Amiibos ever realeased and displays the figure's name, game, series, and date of release in North America. The Amiibos are sorted by game.
-
-### Using the useEffect Hook
-
-The primary location of my useEffect code is in the [Amiibo.js](/src/Content/Amiibo/Amiibo.js) file.
-
-### Using the useContext Hook
-
-The primary location of my useContext code is in the [signContext.js](/src/contexts/signContext.js) file and it is then imported to the [Email.js](/src/Content/Email/Email.js) file.
-
-### Using the useState Hook
-
-My useState code is used in the [signContext.js](/src/contexts/signContext.js), [Amiibo.js](/src/Content/Amiibo/Amiibo.js), and [Email.js](/src/Content/Email/Email.js) files.
-
-### User Input and Form Validation
-
-This app uses Formik and Material UI in order to get user input and validate the information given in the form of a subcription box. This code can be found in the [Email.js](/src/Content/Email/Email.js) file.
-
-### Custom Components
-
-The custom components used in this app are [Amiibo.js](/src/Content/Amiibo/Amiibo.js), [ButtonAppBar.js](/src/Content/Bar/ButtonAppBar.js), [Contact.js](/src/Content/Contact/Contact.js), [Email.js](/src/Content/Email/Email.js), [Header.js](/src/Content/Header/header.js), and [Home.js](/src/Content/Home/Home.js).
-
-### React Router
-
-React Router is used for the routing of this app. <code>Route</code> can be found in the [Content.js](/src/Content/Content.js) component. <code>Link</code> can be found in the [ButtonAppBar.js](/src/Content/Bar/ButtonAppBar.js) component.
-
 ### Hosted on Netlify
 
 This app is hosted on Netlify and can be found at [https://dazzling-tereshkova-66bc33.netlify.app/](https://dazzling-tereshkova-66bc33.netlify.app/)
